@@ -15,11 +15,13 @@
     <form id="myform" action="result.html">
         <div class="form-left">
             <h1>Generel Information</h1>
-            <input type="text" name="first-name" placeholder="First name">
-            <input type="text" name="last-name" placeholder="Last name"> <hr>
-            <input type="email" name="e-mail" placeholder="E-mail"> <br>
-            <input type="date" name="date"> <br>
-            <input type="text" name="company" placeholder="Company"> <br>
+            <div class="input1">
+                <input type="text" name="first-name" placeholder="First name">
+                <input type="text" name="last-name" placeholder="Last name">
+                <input type="email" name="e-mail" placeholder="E-mail">
+                <input type="date" name="date">
+                <input type="text" name="company" placeholder="Company">
+            </div>
             <select>
                 <option>CEO</option>
                 <option>CTO</option>
@@ -29,25 +31,27 @@
 
         <div class="form-right">
             <h1>Contact Details</h1>
-            <input type="text" name="Street" placeholder="Street">
-            <input type="text" name="Additional-information" placeholder="Additional-information">
-            <input type="text" name="Zip-Code" placeholder="Zip Code">
+            <div>
+                <input type="text" name="Street" placeholder="Street">
+                <input type="text" name="Additional-information" placeholder="Additional-information">
+                <input type="text" name="Zip-Code" placeholder="Zip Code">
+            </div>
             <select class="Place">
                 <option>Place1</option>
                 <option>Place2</option>
                 <option>Place3</option>
             </select>
-            <label>Places</label>
             <select class="Country">
                 <option>Mongilia</option>
                 <option>Foreign</option>
             </select>
-            <input type="text" name="Code" placeholder="Code">
+          
+          <div class="input2">  <input type="text" name="Code" placeholder="Code">
             <input type="number" name="Number" placeholder="Phone Number">
-
             <input type="radio" name="Acceptance">
-            <label for="">I do accept the Terms and condition of your site</label>
+            <label for="">I do accept the Terms and condition of your site</label> <br>
             <input type="submit" value="Submit">
+        </div>
         </div>
 
 
