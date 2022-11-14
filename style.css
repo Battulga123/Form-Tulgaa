@@ -1,0 +1,34 @@
+html {
+    background-color: grey;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    max-width: 80vw;
+
+}
+
+
+.form-left {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 50vw;
+    padding: 70px;
+    background-color: white;
+
+}
+
+
+.form-right {
+    width: 50vw;
+    background-color: blue;
+    padding: 70px;
+}
+
+
+/* input {
+    height: 30px;
+    width: 600px;
+} */
